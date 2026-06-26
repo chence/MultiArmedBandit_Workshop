@@ -1,0 +1,8 @@
+strategy,total_reward,best_estimated_arm,unique_arms_tried
+fixed eps=0.05,1925,5,10
+fixed eps=0.1,1862,5,10
+fixed eps=0.01,1836,5,9
+fixed eps=0.2,1800,5,10
+decay eps=0.5->0.05,1724,5,10
+fixed eps=0.0,1570,0,1
+fixed eps=0.5,1557,5,10

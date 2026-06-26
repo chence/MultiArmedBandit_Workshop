@@ -49,7 +49,27 @@ By completing this workshop, students will be able to:
 | File | Description |
 |------|--------------|
 | `Casino_Challenge_MAB_Workshop.ipynb` | Main notebook with competition, code, and reflection prompts. |
+| `MultiArmedBandit_Workshop.ipynb` | Introductory notebook demonstrating ε-greedy bandits and basic visualizations. |
+| `My_MAB_Reflection_Notebook.ipynb` | Student submission notebook with both rounds, visualizations, CSV readbacks, and reflections. |
+| `submissions_round1.csv` | Generated leaderboard CSV for Round 1: Stationary Casino. |
+| `submissions_round2.csv` | Generated leaderboard CSV for Round 2: Non-Stationary Casino. |
+| `mab_figures/` | Figures used by the student reflection notebook. |
 | `README.md` | This summary document. |
+
+---
+
+## 📝 Student Submission Notes
+For grading or review, start with `My_MAB_Reflection_Notebook.ipynb`.
+
+That notebook summarizes:
+- Round 1: Stationary Casino results and ε comparison.
+- Round 2: Non-Stationary Casino results and constant-α comparison.
+- Exploration–exploitation reflections.
+- Why ε matters.
+- Why constant step-size α helps in non-stationary settings.
+- The generated CSV files from both competition rounds.
+
+The original workshop notebooks are kept as reference material.
 
 ---
 

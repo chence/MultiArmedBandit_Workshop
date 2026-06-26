@@ -1,0 +1,7 @@
+strategy,total_reward,last_500_reward,unique_arms_tried
+"constant alpha=0.2, eps=0.1",2656,420,10
+"constant alpha=0.1, eps=0.1",2621,443,10
+"constant alpha=0.1, eps=0.2",2590,428,10
+"constant alpha=0.1, eps=0.05",2571,416,10
+"constant alpha=0.05, eps=0.1",2558,439,10
+"sample average, eps=0.1",2543,438,10
