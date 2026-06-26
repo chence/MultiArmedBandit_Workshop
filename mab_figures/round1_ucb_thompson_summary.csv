@@ -1,0 +1,4 @@
+method,total_reward,reward_rate
+Thompson Sampling,1935,0.9675
+epsilon-greedy eps=0.05,1925,0.9625
+UCB c=2.0,1657,0.8285

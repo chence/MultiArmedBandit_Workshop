@@ -67,9 +67,32 @@ That notebook summarizes:
 - Exploration–exploitation reflections.
 - Why ε matters.
 - Why constant step-size α helps in non-stationary settings.
+- Optional UCB and Thompson Sampling extensions for both rounds.
 - The generated CSV files from both competition rounds.
 
 The original workshop notebooks are kept as reference material.
+
+---
+
+## 💬 Talking Points Summary
+
+My main takeaway is that a bandit problem is really about learning while acting. If I only exploit too early, I may get stuck with a bad machine. If I explore too much, I waste chances to use the machine that already looks good.
+
+- In **Round 1**, the casino is stationary, so the machines' reward probabilities stay fixed. That means old data is still useful, and sample-average estimates make sense.
+- In **Round 2**, the casino is non-stationary, so the reward probabilities drift. In that case, old data can become misleading, and constant α helps because it gives more weight to recent rewards.
+- I also clarified that **stationary/non-stationary** describes the environment, while **static/adaptive** describes the policy. A policy can keep updating even if the environment is stationary.
+- A real regulated casino is usually closer to stationary because RTP settings are not normally changed all the time. Short winning or losing streaks can look like change, but they are often just randomness.
+- In real applications like ads, recommendations, A/B testing, and markets, non-stationarity is more realistic because users, trends, and conditions keep changing.
+- UCB and Thompson Sampling are useful extensions because they explore based on uncertainty instead of random guessing.
+- For non-stationary problems, even UCB or Thompson Sampling need adaptive versions, such as sliding-window UCB or discounted Thompson Sampling.
+
+Key generated outputs:
+- `submissions_round1.csv`
+- `submissions_round2.csv`
+- `mab_figures/round1_epsilon_comparison.png`
+- `mab_figures/round2_alpha_comparison.png`
+- `mab_figures/round1_ucb_thompson_comparison.png`
+- `mab_figures/round2_ucb_thompson_comparison.png`
 
 ---
 

@@ -1,0 +1,4 @@
+method,total_reward,last_500_reward,reward_rate
+constant-alpha eps-greedy,2656,420,0.8853333333333333
+discounted Thompson Sampling,2570,425,0.8566666666666667
+sliding-window UCB,2364,399,0.788
